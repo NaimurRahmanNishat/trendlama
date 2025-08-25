@@ -21,7 +21,6 @@ const product: ProductType = {
 };
 
 export const generateMetadata = async ({
-  params,
 }: {
   params: { id: string };
 }) => {
@@ -34,7 +33,6 @@ export const generateMetadata = async ({
 };
 
 const ProductPage = async ({
-  params,
   searchParams,
 }: {
   params: Promise<{ id: string }>;

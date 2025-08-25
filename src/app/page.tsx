@@ -9,7 +9,6 @@ const Homepage = async ({
   const category = (await searchParams).category;
   return (
     <div className="">
-      <p className="text-5xl font-bold text-gray-500">1 Hour 35 minutes 37 seconds</p>
       <div className="relative aspect-[3/1] mb-12">
         <Image src="/featured.png" alt="Featured Product" fill />
       </div>
